@@ -17,6 +17,7 @@ h4 {
 .box-1 {
     width: 35%;
     margin: 20px;
+    text-align: center;
 }
 
 .box-2 {
@@ -34,4 +35,12 @@ img{
 footer{
     text-align: center;
     color: indigo;
+}
+
+@media only screen and (max-width: 500px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        background-color: lightsalmon;
+    }
 }
