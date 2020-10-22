@@ -1,0 +1,36 @@
+body {
+    background-image:url('../images/background.jpg');
+}
+header{
+    display: grid;
+    color: indigo;
+    width: 100%;
+    text-align: center;
+}
+.box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: lightsalmon;
+    padding: 10px;
+}
+
+.box-1 {
+    padding: 30px;
+}
+
+img{
+    height: 390px;
+    width: 240px;
+    margin-left: 3px;
+    margin-right: 4px;}
+
+footer{
+    display: grid;
+    width: 100%;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: indigo;
+}

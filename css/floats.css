@@ -1,0 +1,64 @@
+body {
+    background-image:url('../images/background.jpg');
+}
+h2 {
+    text-align: center;
+}
+
+
+header {
+    text-align: center;
+    width: 100%;
+    color:cornflowerblue;
+  }
+  .box {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: lightsalmon;
+  }
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+  
+  .box-1 {
+    float: left;
+    width: 20%;
+    padding:  30px;
+    background-color: lightslategray;
+    padding-bottom: 65px;
+  }
+
+  
+  .box-2 {
+    float: left;
+    width: 50%;
+    margin : 5px;
+    padding: 5px;
+  }
+  
+  .box-3 {
+
+    float: left;
+    width: 15%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+img {
+    height: 390px;
+    width: 240px;
+    margin-left: 3px;
+    margin-right: 4px;
+    
+}
+
+footer{
+    text-align: center;
+    border: 1px dotted blue;
+    width: 100%;
+    color: red;
+    margin-top: 20px;
+}
