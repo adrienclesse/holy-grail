@@ -43,6 +43,17 @@ h2{
     color: indigo;
 }
 
+a{
+    color:cornflowerblue;
+  }
+  a:hover {
+      text-shadow: 0 0 5px purple;
+      color: purple;
+  }
+  a:active {
+      color: red;
+      text-shadow: 4 40 15px pu;
+
 @media only screen and (max-width: 650px) {
     .box {
         display: grid;
