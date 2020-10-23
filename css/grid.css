@@ -39,7 +39,7 @@ h2{
     color: indigo;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
     .box {
         display: grid;
         background-color: lightsalmon;
