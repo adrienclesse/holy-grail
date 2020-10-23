@@ -82,7 +82,7 @@ footer{
 a{
   color:cornflowerblue;
   text-decoration: none;
- 
+}
 a:hover {
     text-shadow: 0 0 5px purple;
     color: purple;
