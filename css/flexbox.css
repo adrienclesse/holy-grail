@@ -37,7 +37,7 @@ img{
     margin-left: auto;
     margin-right: auto;
     height: 350px;
-    margin-top: 10%;
+    margin-top: 26%;
     margin-bottom: 20px;
   }
 
@@ -63,5 +63,9 @@ a{
         display: flex;
         flex-direction: column;
         background-color: lightsalmon;
+    }
+
+    img{
+        margin-top: 10%;
     }
 }
