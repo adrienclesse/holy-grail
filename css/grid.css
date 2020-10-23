@@ -50,14 +50,21 @@ h2{
 
 a{
     color:cornflowerblue;
+    text-decoration: none;
+    
   }
   a:hover {
       text-shadow: 0 0 5px purple;
       color: purple;
+      text-decoration: none;
+      border: solid gray;
   }
   a:active {
       color: red;
       text-shadow: 4 40 15px pu;
+      text-decoration: none;
+      border: solid gray;
+      box-shadow:5px 10px #888888;
   }
     @media only screen and (max-width: 650px) {
     .box {

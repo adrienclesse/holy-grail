@@ -48,14 +48,19 @@ footer{
 
 a{
     color:cornflowerblue;
+    
   }
   a:hover {
       text-shadow: 0 0 5px purple;
       color: purple;
+      border: solid gray;
+      
   }
   a:active {
       color: red;
       text-shadow: 4 40 15px pu;
+      border: dotted gray;
+      box-shadow:5px 10px #888888;
   }
 
 @media only screen and (max-width: 650px) {

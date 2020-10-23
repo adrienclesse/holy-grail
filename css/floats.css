@@ -81,14 +81,19 @@ footer{
 }
 a{
   color:cornflowerblue;
-}
+  text-decoration: none;
+ 
 a:hover {
     text-shadow: 0 0 5px purple;
     color: purple;
+    text-decoration: none;
+    box-shadow:5px 10px #888888;
 }
 a:active {
     color: red;
     text-shadow: 4 40 15px pu;
+    box-shadow:5px 10px #888888;
+    box-shadow:5px 10px #888888;
 } 
 @media only screen and (max-width: 900px) {
     .box {
