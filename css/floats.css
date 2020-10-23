@@ -26,9 +26,9 @@ header {
   .box-1 {
     float: left;
     width: 20%;
-    padding:  30px;
-    background-color: lightslategray;
+    padding: 30px;
     padding-bottom: 65px;
+    text-align: center;
   }
 
   
@@ -37,6 +37,7 @@ header {
     width: 50%;
     margin : 5px;
     padding: 5px;
+    text-align: center;
   }
   
   .box-3 {
@@ -67,5 +68,9 @@ footer{
         display: flex;
         flex-direction: column;
         background-color: lightsalmon;
+        padding-left: 150px;
+    }
+    .box-1{
+      float: middle;
     }
 }
