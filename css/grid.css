@@ -23,7 +23,8 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 350px;
+    height: auto;
+    width: 100%;
     margin-top: 20px;
   }
 
@@ -43,7 +44,7 @@ h2{
     .box {
         display: grid;
         background-color: lightsalmon;
-        grid-template-rows: 1fr 2fr 1fr;
+        grid-template-rows: auto auto auto;
         grid-template-columns: 1fr;
     }   
 }
