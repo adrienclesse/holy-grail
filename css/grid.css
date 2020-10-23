@@ -16,13 +16,16 @@ header{
 
 .box-1 {
     padding: 30px;
+    text-align: center;
 }
 
 img{
-    height: 390px;
-    width: 240px;
-    margin-left: 3px;
-    margin-right: 4px;}
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    margin-top: 20px;
+  }
 
 footer{
     display: grid;
@@ -33,4 +36,13 @@ footer{
 h2{
     text-align: center;
     color: indigo;
+}
+
+@media only screen and (max-width: 600px) {
+    .box {
+        display: grid;
+        background-color: lightsalmon;
+        grid-template-rows: 1fr 2fr 1fr;
+        grid-template-columns: 1fr;
+    }   
 }

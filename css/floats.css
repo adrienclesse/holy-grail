@@ -47,13 +47,13 @@ header {
     box-sizing: border-box;
   }
 
-img {
-    height: 390px;
-    width: 240px;
-    margin-left: 3px;
-    margin-right: 4px;
-    
-}
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    margin-top: 20px;
+  }
 
 footer{
     text-align: center;
@@ -61,4 +61,12 @@ footer{
     width: 100%;
     color: red;
     margin-top: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        background-color: lightsalmon;
+    }
 }
