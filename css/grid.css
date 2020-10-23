@@ -22,13 +22,18 @@ header{
     text-align: center;
 }
 
+main{
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
 img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: auto;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 30%;
   }
 
 footer{
@@ -53,12 +58,15 @@ a{
   a:active {
       color: red;
       text-shadow: 4 40 15px pu;
-
-@media only screen and (max-width: 650px) {
+  }
+    @media only screen and (max-width: 650px) {
     .box {
         display: grid;
         background-color: lightsalmon;
         grid-template-rows: auto auto auto;
         grid-template-columns: 1fr;
     }   
+    img{
+        margin-top: 5%;
+    }
 }
